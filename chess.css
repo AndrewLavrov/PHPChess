@@ -1,0 +1,24 @@
+.board {
+	width:	640px;				/* Размеры шахматной доски */
+	height:	640px;
+	margin:	50px;				/* Отступ от краёв документа */
+	border:	25px solid #333;	/* Рамка вокруг доски - размер и цвет */
+}
+.black{							/* чёрное поле на доске */
+	float: left;				/* клетки размещаются друг за другом */
+	width: 80px;				/* ширина и высота каждой клетки */
+	height: 80px;
+	font-size: 50px;			/* размер шрифта с шахматными фигурами */
+	text-align: center;			/* фигуры центруются по горизонтали */
+	vertical-align: middle;		/* 					и по вертикали */
+	background-color: #999;		/* цвет фона чёрной клетки */
+}
+.white {
+	float: left;				/* все параметры такие же */
+	width: 80px;
+	height: 80px;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #eee;		/* меняется цвет фона белой клетки */
+}
